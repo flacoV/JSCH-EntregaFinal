@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Rick & Morty Wiki</h1>
+        </nav>
+
+    </header>
+    <main>
+        <div class="mainContainer">
+            <div class="inputs">
+                <i class='bx bx-x' id="resetButton"></i>
+                <input type="search" name="search bar" id="searchBar" class="searchTerm"
+                    placeholder="Busque un personaje">
+                <button id="filterButton" class="filterBtn">Filtrar</button>
+                <div id="categoryButtons" style="display: none;"></div>
+            </div>
+            <div id="cardsCont" class="containerCard">
+            </div>
+    </main>
+
+
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
